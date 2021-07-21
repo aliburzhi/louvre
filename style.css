@@ -1,0 +1,500 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030303;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    margin-right: 525px;
+    padding-left: 70px;
+    color: #9e9797;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.logo-img {
+    margin-right: 20px;
+}
+
+.nav-list {
+    max-width: 720px;
+    list-style: none;
+    display: flex;
+    padding: 0 15px;
+    margin-right: 240px;
+}
+
+.nav-list-item {
+    padding: 0 5 0 5;
+    line-height: 4px;
+    margin-right: 15px;
+}
+
+.nav-list-item-link {
+    text-decoration: none;
+    color: #9e9797;
+    font-size: 22px;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.section-welcome {
+    background-image: url(./assets/img/background.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 635px;
+    background-position: top -114px left 465px;
+}
+
+.title-welcome {
+    font-size: 80px;
+    color: white;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+.text-welcome {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+
+.btn-welcome {
+    width: 360px;
+    height: 75px;
+    background: #710707;
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Visiting Tour */
+
+.visit-title {
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+    position: relative;
+    font-family: Forum;
+}
+
+.visit-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+.container-visit-cards {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CARDS CONTAINER */
+
+.link-card {
+    margin-bottom: 77px;
+}
+
+.link-card:nth-child(3n + 1),
+.link-card:nth-child(3n + 2) {
+    margin-right: 50px;
+}
+
+.img-card {
+    width: 440px;
+    height: 285px;
+    margin-bottom: 25px;
+}
+.hr-cards {
+    width: 300px;
+    margin: 0;
+    color: #710707;
+    border-radius: 0px;
+}
+
+.cards-title {
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Roboto;
+}
+
+.cards-subtitle {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    font-family: Roboto;
+}
+
+.cards-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: Roboto;
+}
+
+/* PICTURE EXPLORE */
+
+.container-explore {
+    display: flex;
+}
+.exlore-container-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.section-explore {
+    background-color: black;
+}
+
+.explore-title {
+    font-family: Forum;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.explore-text {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 38px;
+    color: #ffffff;
+    max-width: 660px;
+}
+
+.explore-span-text {
+    color: #caaa7d;
+}
+
+.explore-img {
+    width: 720px;
+    height: 700px;
+    padding-top: 75px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+}
+
+/* VIDEO */
+
+.video-module {
+    width: 1440px;
+    height: 715px;
+    margin-top: 150px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.video-title {
+    font-family: Forum;
+    font-size: 67px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    color: #9d8665;
+    text-transform: uppercase;
+    margin-right: 115px;
+}
+
+.video-text {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 38px;
+    color: black;
+}
+
+.section-video-t {
+    display: flex;
+    align-items: center;
+}
+
+/* TICKETS */
+
+.section-tickets {
+    background-color: black;
+}
+
+.tickets-title {
+    font-family: Forum;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+}
+
+.tickets-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+.tickets-img {
+    width: 720px;
+    height: 550px;
+    margin-right: 60px;
+}
+
+.tickets-title-type {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.ticket-btn-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    color: #ffffff;
+}
+
+.tickets-container-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+}
+
+.container-label {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.container-tickets {
+    display: flex;
+}
+
+.amount-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #ffffff;
+}
+.tickets-amount-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.total-tickets-price-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    color: #ffffff;
+}
+
+.btn-buy-tickets {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #000000;
+    width: 175px;
+    height: 50px;
+}
+
+/* CONTACTS */
+
+.contacts-title {
+    font-family: Forum;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.contacts-line::before {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 0px;
+    width: 1440px;
+}
+
+.contacts-title-text {
+    font-family: Roboto;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.contacts-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-right: 198px;
+}
+
+.contacts-list-item {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.container-contacts {
+    display: flex;
+}
+
+.contacts-img {
+    padding-top: 260px;
+    padding-bottom: 50px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 50px;
+    background-color: black;
+    margin: 0;
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-logo {
+    display: flex;
+    padding-left: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+    padding-top: 88px;
+}
+
+.footer-logo-text {
+    color: #ffffff;
+    font-family: Forum;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    margin-right: 150px;
+    padding-top: 38px;
+}
+
+.box-1 {
+    width: 300px;
+}
+
+.box-2 {
+    margin-right: 240px;
+}
+
+.footer-social-list-item {
+    margin-right: 24px;
+}
+
+.footer-logo-img {
+    padding-left: 70px;
+}
+
+.footer-menu-link {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: white;
+}
