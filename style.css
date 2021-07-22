@@ -28,6 +28,14 @@ a {
     text-decoration: none;
 }
 
+.btn-welcome:hover {
+    background-color: #9d8665;
+}
+
+.nav-list-item-link:hover {
+    color: white;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1440px;
@@ -114,7 +122,7 @@ a {
 .btn-welcome {
     width: 360px;
     height: 75px;
-    background: #710707;
+    background: #5a0e0e;
     border: none;
     border-radius: 10px;
     padding: 0;
@@ -170,6 +178,12 @@ a {
     height: 285px;
     margin-bottom: 25px;
 }
+
+.img-card:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
 .hr-cards {
     width: 300px;
     margin: 0;
@@ -376,7 +390,7 @@ a {
 
 .btn-buy-tickets {
     font-family: Roboto;
-    font-style: normal;
+    font-style: bold;
     font-weight: 300;
     font-size: 22px;
     line-height: 26px;
@@ -384,8 +398,13 @@ a {
     color: #000000;
     width: 175px;
     height: 50px;
+    border-radius: 5px;
 }
 
+.inp-radio-item {
+    background: #030303;
+    border-radius: 0px;
+}
 /* CONTACTS */
 
 .contacts-title {
@@ -471,7 +490,7 @@ a {
 }
 
 .footer-logo-text {
-    color: #ffffff;
+    color: #6b6666;
     font-family: Forum;
     font-size: 28px;
     font-weight: normal;
@@ -504,5 +523,33 @@ a {
     font-size: 22px;
     line-height: 50px;
     letter-spacing: 2px;
+    color: #6b6666;
+}
+
+.footer-menu-link:hover {
+    color: white;
+}
+
+.footer-social-img:hover {
+    transition: 0.1s;
+    transform: scale(1.5);
+}
+
+.btn-tickets-count {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.inp-tickets-count {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 19px;
+    border: 1px solid white;
+}
+
+.btn-buy-tickets:hover {
+    background-color: #9d8665;
     color: white;
 }

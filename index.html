@@ -124,20 +124,20 @@
                     <img src="./assets/img/tickets.jpg" alt="tickets" class="tickets-img"> 
                 <div class="tickets-container-info">
                     <h2 class="tickets-title-type">Ticket Type</h2>
-                    <p class="ticket-btn-text"><input name="dzen" type="radio" value="nedzen"> Permanent exhibition</p>
-                    <p class="ticket-btn-text"><input name="dzen" type="radio" value="dzen"> Temporary exhibition</p>
-                    <p class="ticket-btn-text"><input name="dzen" type="radio" value="pdzen" checked> Combined Admission</p>
+                    <p class="ticket-btn-text"><input class="inp-radio-item" name="dzen" type="radio" value="nedzen"> Permanent exhibition</p>
+                    <p class="ticket-btn-text"><input class="inp-radio-item" name="dzen" type="radio" value="dzen"> Temporary exhibition</p>
+                    <p class="ticket-btn-text"><input class="inp-radio-item" name="dzen" type="radio" value="pdzen" checked> Combined Admission</p>
                 </div>
                 <div class="tickets-container-amount">
                     <h2 class="amount-title">Amount</h2>
                     <p class="tickets-amount-text">Basic 18+</p>
-                    <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                    <input type="number" min="0" max="100" value="1" readonly class="number">
-                    <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <button class="btn-tickets-count" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input class="inp-tickets-count" type="number" min="0" max="100" value="1" readonly class="number">
+                    <button class="btn-tickets-count" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                     <p class="tickets-amount-text">Senior 65+</p>
-                    <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                    <input type="number" min="0" max="100" value="1" readonly class="number">
-                    <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <button class="btn-tickets-count" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input class="inp-tickets-count" type="number" min="0" max="100" value="1" readonly class="number">
+                    <button class="btn-tickets-count" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                     <h2 class="total-tickets-price-title">Total:  €225</h2>
                     <button type="button" class="btn-buy-tickets">Buy now</button>
 
